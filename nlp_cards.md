@@ -29,7 +29,7 @@ NLP is a broad field,
 
 ### Transcription 
 Aka, Speech to Text or Automatic Speech Recognition (ASR). Includes diarization, meaning who's talking.
-1. OpenAI's [Whisper](https://openai.com/blog/whisper/), opensource, bi-directional
+- OpenAI's [Whisper](https://openai.com/blog/whisper/), opensource, bi-directional
   - includes punctuation, didn't see diarization
   - tiny, base, small, medium, large
     - small-large do a good job recognizing non-english/marketing words
@@ -39,7 +39,7 @@ Aka, Speech to Text or Automatic Speech Recognition (ASR). Includes diarization,
   - speech-to-text translation
   - "predictions may include texts that are not actually spoken in the audio input (i.e. hallucination)"
   - Q's: custom vocab, fine-tuning
-1. [AWS Transcribe](https://aws.amazon.com/transcribe/), closed source, paid
+- [AWS Transcribe](https://aws.amazon.com/transcribe/), closed source, paid
   - batch and streaming, sub-flavor Transcribe Medical (expensive) will id PHI
   - language identification, diarization, punctuation, number formatting
   - custom vocabulary for domain specific language
