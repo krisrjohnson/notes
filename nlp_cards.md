@@ -8,16 +8,27 @@ NLP is a broad field,
 
 ## Models
 ### Transformers
-- Bert - bi-directional transformer
-  - Sentiment analysis
-  - Named Entity Recognition (NER)
-  - Question Answering (QA)
-  - Text Prediction - next word
-  - Text Generation
-  - Summarization
-  - Polysemy resolution 
-    - differentiate words with multiple meanings, e.g. "bank", based on context
+- [timeline of popular Transformer model releases](https://huggingface.co/course/chapter1/4#a-bit-of-transformer-history)
+- [Bert](https://huggingface.co/blog/bert-101) - bi-directional transformer, opensource
+  - NLP tasks:
+    - Sentiment analysis
+    - Named Entity Recognition (NER)
+    - Question Answering (QA)
+    - Text Prediction - next word
+    - Text Generation
+    - Summarization
+    - Polysemy resolution 
+      - differentiate words with multiple meanings, e.g. "bank", based on context
+  - Trained on two tasks simultaneously
+    - Masked Language Model (MSM) - hide a word and train model to predict
+      - "Dang, I'm out fishing and a huge trout just [blank] my line!"
+    - Next Sentence Prediction (NSP), does the given sentence correctly follow the previous
+  - code: https://github.com/google-research/bert
 
+#### Benchmarks
+- SQuAD - Stanford Question Answering Dataset, 108k q's answerable by a wiki paragraph
+- GLUE - General Language Understanding Evaluation, 9 types of NLP tasks, such as grammar or paraphrasing
+- SWAG - Situations With Adversarial Generations, 113k multiple choice common sense questions
 
 
 ### Embeddings
