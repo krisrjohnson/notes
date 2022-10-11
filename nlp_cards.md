@@ -7,6 +7,9 @@ NLP is a broad field,
 - tokenization
 
 ## Models
+### Good Links
+- [NLP](https://wandb.ai/lavanyashukla/vega-plots/reports/Natural-Language-Processing--Vmlldzo2Nzk2Ng) by weights and biases
+
 ### Transformers
 - [timeline of popular Transformer model releases](https://huggingface.co/course/chapter1/4#a-bit-of-transformer-history)
 - [Bert](https://huggingface.co/blog/bert-101) - bi-directional transformer, opensource
@@ -56,7 +59,7 @@ Aka, Speech to Text or Automatic Speech Recognition (ASR). Includes diarization,
   - custom vocabulary for domain specific language
   - Custom Language Model based on a corpus of text data
 
-<!-- TODO: text EDA, Language Recognition,  NER, Sentiment Analysis, Question Answering, Summarization -->
+<!-- TODO: text EDA, Language Recognition,  NER, Sentiment Analysis, Question Answering, Summarization, Part of Speech Tagging -->
 
 
 ## Packages
